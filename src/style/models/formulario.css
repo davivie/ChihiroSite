@@ -1,0 +1,89 @@
+@import url("./coresFontes.css");
+
+.formulario{
+  
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    color: var(--cor-de-fundo);
+    width: 100%;
+    border: none;
+    text-align: center;
+    margin-top: 20rem;
+    
+    
+}
+
+
+.formulario:hover{
+    background-color:transparent;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid white;
+    text-align: center;
+   
+    
+}
+.text-form{
+    font-weight: 500;
+    color: black;
+   
+}
+
+.cadastro{
+    margin-top: 100px;
+    
+}
+
+
+
+
+.titulo-formulário{
+    text-align: center;
+
+    
+}
+
+.botao-padrao{
+    border-radius: 10px;
+    padding: 1em;
+
+    text-align: center;
+    width: 50%;
+  
+    font-family: var(--fonte-principal);
+    background-color:var(--cor-de-fundo);
+  
+    margin-top: 20px;
+    color: var(--cor-principal);
+
+    text-decoration: none;
+}
+
+
+.btn-secundary{
+    background-color: transparent;
+    color: var(--cor-principal);
+}
+.botao-padrao{
+    background-color: transparent;
+    border: 1px solid white;
+    color: var(--cor-de-fundo);
+}
+
+.botao-padrao:hover {
+    background-color: var(--cor-principal);
+    color: var(--cor-de-fundo);
+    border: none;
+}
+.card-text{
+    font-size: 13px;
+    font-style: italic;
+}
+.text-modal{
+    font-family: var(--fonte-principal);
+    padding: auto;
+}
+.bi-whatsapp{
+    font-size: 400px;
+}

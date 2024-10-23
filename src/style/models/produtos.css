@@ -1,0 +1,45 @@
+@import url("./coresFontes.css");
+body{
+    background-color: var(--cor-fundo);
+}
+
+.card{
+    margin: 20px;
+    background-color:transparent;
+    color: rgb(189, 193, 199);
+    font-family: var(--fonte-principal);
+    border-radius: 30px;
+    
+  
+}
+
+.card:hover{
+ border: solid 1px white;
+  
+}
+
+.card-title{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.card-text{
+    font-size: 0.8rem;
+    font-weight: 300;
+    
+}
+.imagem-produto{
+   width: 50%;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.btn-secundary{
+    background-color:bisque
+}
+.text-modal{
+    text-align: justify;
+    font-family: var(--fonte-principal);
+}
+.modal{
+    background-color: black;
+}

@@ -1,0 +1,352 @@
+
+@import url("./coresFontes.css");
+/* :root {
+    --cor-principal: #121010;
+    --cor-secundaria:#f4f5f1;
+
+    --cor-de-fundo: #6aaba3;
+
+    --cor-terciaria:#547571;
+    --cor-borda:#14394e;
+
+    --fonte-principal: "Cinzel", serif;
+  
+    --botao-azul-efeito: #3c92fa;
+    --fonte-titulo: "Spirax", system-ui;
+   
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+header{
+    padding-top: 20px;
+}
+
+.parte-secundaria{
+    background-color: var(--cor-fundo);
+
+}
+
+
+.inicial{
+    background-image: url(./img/chiriro\ com\ dragao.jpeg);
+    
+
+    text-align: center;
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    
+    padding: 10px;
+    height: 100vh;
+    
+    font-size: 20px;
+
+    font-weight: 700;
+  
+
+}
+
+
+.inicial:hover{
+
+
+    border: solid white;
+    background-size: cover;
+
+    transition: 3s;
+    
+
+    color: var(--cor-principal);
+    padding: 10px;
+    text-align: center;
+   
+    
+}
+
+
+
+.imagem {
+    width: 50%;
+    text-align: center;
+    border: solid #0a0b08;
+    border-radius: 90px;
+  
+    
+}
+
+.descricao {
+    padding: 2em;
+    
+}
+
+
+
+
+.image_titulo{
+   border: solid var(--cor-principal);
+   border-radius: 30%;
+   width: 30%; 
+
+}
+
+
+
+
+
+
+
+.secundario{
+   
+    align-items: center;
+       
+    padding: 20px;
+    margin: 20px;
+    margin-top: 100px;
+
+    display: flex;
+    text-align: right;
+    
+}
+
+.secundario:hover{
+
+    background-image: url("./img/fundo-mar-trem.png");
+    border: solid white;
+    
+    background-size: cover;
+    transition: 5s;
+
+    border-radius: 100px;
+    color: var(--cor-principal);
+    
+}
+
+.terciario{
+    align-items: center;
+       
+    padding: 40px;
+    margin: 20px;
+    display: flex;
+    text-align: right;
+}
+
+
+.terciario:hover{
+
+    background-image: url("./img/fundo-casa2.png");
+    border: solid white;
+    
+       
+    padding: 10px;
+    margin: 20px;
+
+    background-size: cover;
+    transition: 5s;
+
+    border-radius: 60px;
+    color: var(--cor-principal);
+
+}
+
+.quarto {
+    
+    align-items: center;
+       
+    padding: 20px;
+    margin: 20px;
+    
+    display: flex;
+    text-align: right;
+    
+}
+
+
+.quarto:hover{
+
+    background-image: url("./img/fundo-casa.jpeg");
+    border: solid white;
+
+    
+    margin: 0;
+
+    font-size: 8px;
+
+    background-size: cover;
+    transition: 5s;
+
+    border-radius: 100px;
+    color: var(--cor-principal);
+
+
+}
+
+
+
+.introdução{
+
+    color: var(--cor-secundaria) ;
+    
+    text-align: center;
+   
+
+}
+
+.introdução__titulo{
+    margin: 2rem;
+    font-size: 4rem;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+
+}
+
+
+
+
+.image_netflix{
+    width: 50%;
+}
+
+.youtube{
+    width:300;
+    height:300;
+}
+
+
+.trilha{
+    align-items: center;
+    width: 60;
+    height: 60;
+}
+.titulo-midia{
+    color: var(--cor-secundaria);
+}
+
+.midia{
+
+    text-align: center;
+    margin: 20px;    
+    display: grid;
+    align-items: center;
+    padding-top: 5px;
+   
+}
+
+
+.midia:hover{
+
+    background-image: url("./img/trem-nas-nuvem.jpg");
+    border: solid 1px white;
+    background-size: cover;
+
+    height: 100vh;
+    border-radius: 70px;
+    transition: 4s;
+    margin: 2px;
+    padding: 2px;
+
+    color: var(--cor-principal);
+}
+
+#carouselExample {
+    width: 80%; 
+    max-width: 900px;
+    margin: auto; 
+    border: solid var(--cor-secundaria);
+    border-radius: 20px;
+}
+
+
+.carousel-inner img {
+    width: 100%; 
+    border-radius: 20px;
+    
+}
+
+
+.quinto{
+    
+    text-align: center;
+    margin-top: 7rem; 
+
+    align-items: center;
+    
+    border-radius: 20px;
+
+    justify-content: center;
+    padding: 15px;
+    font-style: italic;
+
+    text-decoration: none;
+    display: block;
+   
+     
+    
+}
+
+.imagem-trailer{
+    width:50%;
+    text-align: center;
+    border-radius: 20px;
+}
+.quinto-botao{
+
+    text-align: center;
+    margin-top: 2rem; 
+
+    align-items: center;
+    
+
+    border-radius: 20px;
+
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+
+    justify-content: center;
+    padding: 15px;
+    font-style: italic;
+
+    text-decoration: none;
+    display: block;
+    margin: 0
+
+}
+.botao_netflix{
+
+    
+    border-radius: 10px;
+    padding: 1em;
+
+    text-align: center;
+    width: 100%;
+  
+    background-color:var(--cor-de-fundo);
+  
+    margin-top: 20px;
+    color: var(--cor-principal);
+
+    text-decoration: none;
+
+}
+
+
+.botao_netflix:hover {
+    background-color: #dc2a21;;
+    color: var(--cor-de-fundo);
+}
+
+
+
+
+
+
+
+
+

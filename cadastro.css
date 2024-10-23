@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Spirax&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&family=Dosis:wght@200..800&display=swap');
+
+:root {
+    --cor-principal: #121010;
+    --cor-secundaria:#f4f5f1;
+
+    --cor-de-fundo: #6aaba3;
+
+    --cor-terciaria:#547571;
+  
+    --cor-borda:#14394e;
+
+    --fonte-principal: "Cinzel", serif;
+  
+    --botao-azul-efeito: #3c92fa;
+    --fonte-titulo: "Spirax", system-ui;
+   
+} */
+
+@import url("./coresFontes.css");
+
+body{
+    background-color: var(--cor-borda);
+    --cor-borda:#14394e;
+}
+
+#carouselExample1 {
+    width: 50%; 
+    max-width: 1200px; 
+
+    margin: auto; 
+
+    border: solid var(--cor-secundaria);
+    border-radius: 20px;
+}
+
+
+.titulo-formulário{
+    text-align: center;
+
+    
+}
+
+
+.botao-padrao{
+    border-radius: 10px;
+    padding: 1em;
+
+    text-align: center;
+    width: 50%;
+  
+    font-family: var(--fonte-principal);
+    background-color:var(--cor-de-fundo);
+  
+    margin-top: 20px;
+    color: var(--cor-principal);
+
+    text-decoration: none;
+}
+
+.botao-padrao:hover {
+    background-color: var(--cor-borda);
+   
+}
+
+.text-form{
+    margin: 10px;
+}
+

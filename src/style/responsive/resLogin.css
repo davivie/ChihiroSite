@@ -1,0 +1,43 @@
+
+
+/* @media (min-width: 780px)  {
+    .titulo-tela {
+        font-size: 4rem; 
+        text-align: center;
+    }
+
+ 
+
+    .container__titulo {
+        font-size: 30px;
+    }
+}  */
+
+
+
+@media (max-width: 768px) {
+    .titulo-tela {
+        font-size: 4rem; 
+        text-align: center;
+    }
+
+ 
+
+    .container__titulo {
+        font-size: 30px;
+    }
+}
+
+/* Celular */
+@media (max-width: 375px) {
+    .titulo-tela {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+   
+
+    .container__titulo {
+        font-size: 20px;
+    }
+}

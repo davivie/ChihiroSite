@@ -1,0 +1,74 @@
+@import url("./coresFontes.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.parte-primeira {
+     background-image: url("./img/fundo4.png");  
+/* 
+    background-image: url("./img/fundo-inicial.jpg"); */
+    background-size: cover;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.principal {
+   
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: cover;
+
+    width: 50%;
+    height: 110vh;
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: flex-start;
+
+    text-align: center; 
+    padding-left: 2em; 
+}
+.botao{
+    background-color: azure;
+    color: antiquewhite;
+}
+
+
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 4rem; 
+        text-align: center;
+    }
+
+ 
+
+    .container__titulo {
+        font-size: 30px;
+    }
+}
+
+/* Celular */
+@media (max-width: 375px) {
+    .titulo {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+  
+
+    .container__titulo {
+        font-size: 20px;
+    }
+}

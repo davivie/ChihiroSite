@@ -1,0 +1,228 @@
+
+/*Midias querys pagina 2 */
+
+/* Tablets */
+
+@media (max-width: 768px) {
+    .inicial {
+        height: 50vh; 
+        font-size: 16px; 
+        border-radius: 15px; 
+        background-size: cover;
+    }
+
+    .aba__menu {
+        padding: 0.5em;
+        flex-direction: column; 
+    }
+
+    .menu {
+        margin: 1em 0;
+        font-size: 14px; 
+        display: block; 
+    }
+
+    .imagem {
+        width: 60%; 
+        border-radius: 10px; 
+    }
+
+    .descricao {
+        padding: 1em;
+    }
+
+    .titulos {
+        font-size: 30px; 
+    }
+
+    .descricao-texto {
+        font-size: 16px; 
+        margin: 2rem 0; 
+    }
+
+    .image_titulo {
+        width: 50%; 
+    }
+
+    .titulo-principal {
+        font-size: 30px; 
+        font-weight: 800;
+    }
+
+    .secundario, .terciario, .quarto {
+        padding: 10px;
+        margin: 10px 0; 
+        font-size: 12px; 
+        flex-direction: column; 
+    }
+
+    .secundario:hover, .terciario:hover, .quarto:hover {
+        font-size: 12px; 
+    }
+
+    .introdução {
+        margin: 1rem;
+    }
+
+    .introdução__titulo {
+        font-size: 2rem; 
+    }
+
+    .introdução-texto {
+        font-size: 18px; 
+        margin: 1rem;
+    }
+
+    .image_netflix, .youtube{
+        width: 100%; 
+        height: auto; 
+    }
+
+    .trilha{
+        width: 90%; 
+        height: 90%;  
+    } 
+
+    .imagem_midia {
+        width: 100%; 
+        height: auto;
+    }
+
+    .midia {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    
+    .quinto, .sexto {
+        padding: 5px;
+        font-size: 14px; 
+    }
+
+    .botao_netflix {
+        font-size: 14px; 
+        padding: 0.5em;
+    }
+
+    .rodape__logo {
+        width: 150px; 
+    }
+
+    .link_pagina {
+        font-size: 16px; 
+    }
+}
+
+/*Celular*/
+@media (max-width: 375px) {
+    .inicial {
+        height: 50vh;
+        font-size: 15px; 
+        font-weight: 800;
+        border-radius: 10px;
+    }
+
+    .aba__menu {
+        padding: 0.25em;
+        display: flex;
+    }
+
+    .menu {
+        margin: 0.5em 0;
+        font-size: 12px;
+    }
+
+    .imagem {
+        width: 100%;
+    }
+
+    .descricao {
+        padding: 0.5em;
+    }
+
+    .titulos {
+        font-size: 22px; 
+    }
+
+   
+
+    .descricao-texto {
+        font-size: 14px; 
+        margin: 1rem 0; 
+    }
+
+    .image_titulo {
+        width: 70%; 
+    }
+
+    .titulo-principal {
+        font-size: 40px;
+        font-weight: 700; 
+    }
+
+    .secundario, .terciario, .quarto {
+        padding: 5px;
+        margin: 5px 0; 
+        font-size: 12px; 
+        flex-direction: column;
+    }
+
+    .secundario:hover, .terciario:hover, .quarto:hover {
+        font-size: 12px;
+        padding: 20px
+    
+    }
+
+    .introdução {
+        margin: 0.5rem;
+    }
+
+    .introdução__titulo {
+        font-size: 1.5rem; 
+    }
+
+    .introdução-texto {
+        font-size: 14px; 
+        margin: 0.5rem;
+    }
+
+    .image_netflix, .youtube, .trilha {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagem_midia {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .midia {
+        margin: 5px;
+        padding: 5px;
+    }
+
+   
+    
+
+    .quinto, .sexto {
+        padding: 5px;
+        font-size: 12px; 
+    }
+
+   
+    .botao_netflix {
+        font-size: 12px; 
+        padding: 0.5em;
+    }
+
+    .rodape__logo {
+        width: 100px; 
+    }
+
+    .link_pagina {
+        font-size: 14px; 
+    }
+
+  
+   
+}

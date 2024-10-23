@@ -1,0 +1,89 @@
+@import url(./coresFontes.css);
+
+.titulos {
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 20px;
+   
+    font-family: var(--fonte-principal);
+    margin: 0rem 0;
+
+    text-align: center;
+
+    color: var(--cor-secundaria);
+    margin-bottom: 0.1em;
+
+
+}
+.titulo-tela{
+    font-family: var(--fonte-principal);
+    font-size: auto;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--cor-secundaria);
+    margin: 30px;
+}
+.titulos-produtos{
+    font-size: 290%;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: center;
+    align-items: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.titulos-dados{
+    font-weight: 500;
+    font-size: 27px;
+}
+.titulo-principal{
+    font-size: 90px;
+
+    font-weight: 900;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-secundaria);
+
+}
+
+.titulo-introdução{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+   
+    font-family: var(--fonte-principal);
+    margin-top: 40px;
+
+    text-align: center;
+
+    color: var(--cor-secundaria);
+    margin-bottom: 0.1em;
+}
+
+
+.descricao-texto {
+    
+    color: var(--cor-secundaria);
+    font-size: 15px;
+    display: block;
+
+    text-align: justify;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    margin: 4rem 0;
+}
+
+.introdução-texto{
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    align-items: center;
+    font-weight: 500;
+    
+    font-size: 16px;
+    text-align: center;
+
+   
+}

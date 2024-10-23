@@ -1,0 +1,38 @@
+header {
+    padding-top: 80px; 
+}
+
+
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 4rem; 
+        text-align: center;
+    }
+
+   
+    .botao-padrao {
+        font-size: 14px; 
+        padding: 0.5em;
+    }
+
+    .container__titulo {
+        font-size: 30px;
+    }
+    
+}
+
+/* Celular */
+@media (max-width: 375px) {
+    .titulo{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    
+    .botao-padrao {
+        font-size: 14px; 
+        padding: 0.5em;
+    }
+}
+

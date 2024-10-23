@@ -1,0 +1,138 @@
+/* :root {
+    --cor-principal: #121010;
+    --cor-secundaria: #f4f5f1;
+    --cor-de-fundo: #6aaba3;
+    --cor-terciaria: #547571;
+    --cor-borda:#14394e;
+    --fonte-principal: "Cinzel", serif;
+    --botao-azul-efeito: #3c92fa;
+    --fonte-titulo: "Spirax", system-ui;
+} */
+
+@import url("./coresFontes.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+   
+}
+
+.page-tres {
+    background-color: var(--cor-fundo);
+   
+}
+
+
+.inicial-lista {
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+.titulo-terceiro {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-secundaria);
+}
+
+.imagem__oscar {
+    max-width: 40%;
+    margin: 10px;
+    border: solid var(--cor-secundaria);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.oscar-texto {
+    color: var(--cor-secundaria);
+    font-size: 20px;
+    
+    font-family: var(--fonte-principal);
+    margin: 4rem 0;
+    
+}
+.texto-oscar{
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-size: 100%;
+}
+
+.oscar {
+    padding: 20px;
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
+    margin-top: 20px;
+}
+
+.oscar-titulo {
+    font-family: var(-);
+}
+
+.setimo {
+    padding: 20px;
+   
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.poster_image {
+  
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    margin: auto;
+    max-width: 800px;
+}
+
+.tabela {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tabela th,
+.tabela td {
+    border: 1px solid var(--cor-secundaria);
+    padding: 10px;
+    text-align: left;
+}
+
+.bio-titulo {
+    font-family: var(--fonte-titulo);
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.nono {
+    padding: 20px;
+    font-family: var(--fonte-principal);
+
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.nono-texto {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.setima-imagem {
+    max-width: 20%;
+    text-align: center;
+    border: solid var(--cor-secundaria);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+

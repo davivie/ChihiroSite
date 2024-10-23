@@ -1,0 +1,36 @@
+@import url("./coresFontes.css");
+
+
+form{
+    margin: 20px
+}
+.fundo-botao{
+    background-color: #176e9c;
+}
+
+.Email{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    background-color: transparent;
+    font-size: 10px;
+    padding: 10px;
+    
+    margin-top: 500px;
+
+    margin-bottom: 10px;
+
+    font-weight: 700;
+
+    text-align: center;
+    border: solid 1px rgb(238, 235, 235);
+    border-radius: 16px;
+}
+
+.texto-email{
+    font-size: 15px;
+    background-color: transparent;
+    
+}
+.email-entrada{
+    padding: auto;
+}

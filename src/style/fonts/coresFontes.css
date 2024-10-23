@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Spirax&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&family=Dosis:wght@200..800&display=swap');
+
+
+:root {
+    --cor-principal: #121010;
+    --cor-secundaria:#e2dada;
+
+    --cor-terciaria:#547571;
+    /* --cor-borda:#14394e; */
+    --cor-borda:#18191a;
+
+    --cor-fundo:#14394e;
+  
+    --fonte-principal: "Cinzel", serif;
+  
+    --botao-azul-efeito: #3c92fa;
+    --fonte-titulo: "Spirax", system-ui;
+   
+}

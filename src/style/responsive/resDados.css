@@ -1,0 +1,106 @@
+/* Media Queries */
+
+/*Tablets*/
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 20px;
+    }
+
+
+    .imagem__oscar{
+        width: 60%;
+    }
+
+    .setima-imagem {
+        max-width: 50%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .poster_image {
+        max-width: 50%;
+       
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .inicial-lista {
+        padding: 20px;
+    }
+
+    .titulo-terceiro {
+        font-size: 24px;
+    }
+
+    .oscar-texto {
+        font-size: 14px;
+    }
+
+    .poster_image {
+        margin-bottom: 10px;
+    }
+
+    .tabela td,
+    .tabela th {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .bio-titulo {
+        font-size: 24px;
+    }
+
+    .nono-texto {
+        font-size: 14px;
+    }
+
+    .link_pagina {
+        font-size: 16px;
+    }
+}
+
+/*Celular*/
+
+@media (max-width: 576px) {
+    .navbar {
+        font-size: 18px;
+    }
+   .imagem__oscar{
+    width: 60%;
+    }
+
+    .setima-imagem {
+        max-width: 40%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .poster_image {
+        max-width: 50%;
+       
+        margin-bottom: 20px;
+    }
+
+
+    .titulo-terceiro {
+        font-size: 20px;
+    }
+
+    .oscar-texto {
+        font-size: 12px;
+    }
+
+    .bio-titulo {
+        font-size: 20px;
+    }
+
+    .nono-texto {
+        font-size: 12px;
+    }
+
+    .link_pagina {
+        font-size: 14px;
+    }
+}
